@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS locations;
-DROP TABLE IF EXISTS weathers;
-DROP TABLE IF EXISTS trails;
+-- DROP TABLE IF EXISTS weathers;
+-- DROP TABLE IF EXISTS trails;
 
 
 
@@ -13,11 +13,11 @@ CREATE TABLE locations (
   );
 
 
-CREATE TABLE weathers(
-    id SERIAL PRIMARY KEY,
-    forecast VARCHAR(255),
-     time VARCHAR(255) 
-);
+-- CREATE TABLE weathers(
+--     id SERIAL PRIMARY KEY,
+--     forecast VARCHAR(255),
+--      time VARCHAR(255) 
+-- );
 
 -- CREATE TABLE trails(
 --     id SERIAL PRIMARY KEY,
